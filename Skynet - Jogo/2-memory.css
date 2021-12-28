@@ -1,0 +1,23 @@
+#mem-play {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.mem-card {
+  background: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.mem-card.open {
+  background: #fea;
+}
+.mem-card.ok {
+  background: #cfffc2;
+}
+
+html, body {
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
